@@ -1,4 +1,8 @@
-# ThesisFrontend
+# Beaver
+
+Beaver is an app written for Bachelor of Engineering thesis in cooperation with two other colleagues - [Beata Iwan](https://www.linkedin.com/in/beata-iwan/) as UX/UI Designer and [Dominik Czechowski](https://github.com/TimeToDot) as Backend Developer. This version of Beaver however represents only the frontend side with API mocked with [json-server](https://www.npmjs.com/package/json-server).
+
+The goal of this app was to create a time reporting system for companies employing workers on mandate contracts. Although it's quite simple and was create in a short period of time (3 months), it was designed to be easily expandable.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6. It is currently using [Angular](https://angular.io/docs)
 version 15.0.0.
@@ -26,6 +30,8 @@ In order to run the project, the steps are as follows:
 1. run `npm install` inside of the `thesis-frontend` folder
 2. run `npm run start` to start the local dev server, by default it will run on `http://localhost:4200/` and it will reload after every change you make
 3. run `npm run test` to execute unit tests via [Karma](https://karma-runner.github.io)
+
+## Run mock server
 
 If you need to run the server with mocked data, you can use `npm run mock:server` command.
 
